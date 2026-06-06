@@ -41,3 +41,5 @@ Route::prefix('/products')
     });
 
 Route::get('/product/{id}', [ProductController::class, 'show']);
+
+Route::get('/product/{id}', [ProductController::class, 'show']);
